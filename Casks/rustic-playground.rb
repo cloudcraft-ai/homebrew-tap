@@ -5,7 +5,7 @@ cask "rustic-playground" do
   url "https://github.com/jagmeetchawla/rustic-playground/releases/download/v#{version}/Rustic.Rust_#{version}_aarch64.dmg",
       verified: "github.com/jagmeetchawla/rustic-playground/"
   name "Rustic Playground"
-  desc "macOS app for running Rust experiments, inspired by Swift Playgrounds"
+  desc "Playground for running Rust experiments, inspired by Swift Playgrounds"
   homepage "https://rustic-playground.app/"
 
   livecheck do
