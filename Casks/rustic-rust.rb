@@ -7,7 +7,7 @@ cask "rustic-rust" do
   name "Rustic Rust"
   name "Rustic Playground"
   desc "Playground for running Rust experiments, inspired by Swift Playgrounds"
-  homepage "https://rustic-playground.app/"
+  homepage "https://rusticplayground.dev/"
 
   livecheck do
     url :url
