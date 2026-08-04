@@ -10,15 +10,15 @@ class Gitreceipts < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cloudcraft-ai/gitreceipts/releases/download/v0.1.0/git-receipts-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7a4f4e9cdae8246786d927d22539b4464507d8b0012ba8ea6363b71aaf1250c4"
+      sha256 "64e4a98af91aabd70dbd49e8489773dcab2dce1cf622f91fff839e0151484c1f"
     else
       url "https://github.com/cloudcraft-ai/gitreceipts/releases/download/v0.1.0/git-receipts-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0d9fb8dcdb73bf8bc7f2aed56d13018a19401c29ab0a1b1892b37cd76b692cae"
+      sha256 "1edee63c08cbb58cde60432a2952d6d1d67af0af5297c76c4bf423931ea9755f"
     end
   end
   on_linux do
     url "https://github.com/cloudcraft-ai/gitreceipts/releases/download/v0.1.0/git-receipts-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "b825c1366d595cdbc6a1984c707ce80afa3d6e315128d47870eed2dbd24839a6"
+    sha256 "56675646f7b95f0a6d8b04671e7ba25559b5128e588a943ddaafcddc174ac3bb"
   end
 
   def install
