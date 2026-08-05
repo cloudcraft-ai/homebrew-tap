@@ -23,6 +23,9 @@ class Gitreceipts < Formula
 
   def install
     bin.install "git-receipts"
+    # The package is `gitreceipts`; the binary is `git-receipts` (so git picks
+    # it up as `git receipts`). Alias the package name too, so both work.
+    bin.install_symlink "git-receipts" => "gitreceipts"
   end
 
   test do
