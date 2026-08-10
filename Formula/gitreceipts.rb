@@ -1,7 +1,7 @@
 class Gitreceipts < Formula
   desc "See what your agent actually did - reconcile a coding-agent session against git"
   homepage "https://github.com/jagmeetchawla/gitreceipts"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   # Verified on macOS (Apple Silicon) and Linux (x86_64). The Intel macOS
@@ -9,16 +9,16 @@ class Gitreceipts < Formula
   # in CI), but is not hand-verified on Intel silicon.
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/jagmeetchawla/gitreceipts/releases/download/v0.1.2/git-receipts-v0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "f696b4628884653efc3a314b09a74777fdf696388c1411cd247a2e08ae2e3a81"
+      url "https://github.com/jagmeetchawla/gitreceipts/releases/download/v0.1.3/git-receipts-v0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "5f207fb4880b3880a0d5186d77d7a98c3699043d3f4d632ea72abda138bec203"
     else
-      url "https://github.com/jagmeetchawla/gitreceipts/releases/download/v0.1.2/git-receipts-v0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "fd3ea963fc97ee15474539be36762b28f09707707b38e944a4434b84c1edbcb6"
+      url "https://github.com/jagmeetchawla/gitreceipts/releases/download/v0.1.3/git-receipts-v0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "f74af866cb1339e8e797ace848aae10945d2f0513be7cd4999dd3bd4d30c4d48"
     end
   end
   on_linux do
-    url "https://github.com/jagmeetchawla/gitreceipts/releases/download/v0.1.2/git-receipts-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "351ab853619c9804237409a3fad26f850d0fbf746104e5c604abfcb191f17084"
+    url "https://github.com/jagmeetchawla/gitreceipts/releases/download/v0.1.3/git-receipts-v0.1.3-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "232cf09ae4ff3e715e2e13154ec6192abf58aacf1f80b3e5a8a11e3768d02174"
   end
 
   def install
