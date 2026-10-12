@@ -2,8 +2,7 @@ cask "rustic-rust" do
   version "0.4.0"
   sha256 "72e749efff8d2cfe7ed6d0f9216d64304cbd22bb36eceb1a96da358086376dbd"
 
-  url "https://github.com/jagmeetchawla/rustic-playground/releases/download/v#{version}/Rustic.Rust_#{version}_aarch64.dmg",
-      verified: "github.com/jagmeetchawla/rustic-playground/"
+  url "https://github.com/jagmeetchawla/rustic-playground/releases/download/v#{version}/Rustic.Rust_#{version}_aarch64.dmg"
   name "Rustic Rust"
   name "Rustic Playground"
   desc "Playground for running Rust experiments, inspired by Swift Playgrounds"
